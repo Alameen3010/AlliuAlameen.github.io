@@ -24,7 +24,7 @@
 		<!-- Intro -->
 		<div id="intro">
 			<h1>Alliu's Portfolio<br /> </h1>
-			<p>Data Analyst skilled in SQL, Tableau and Python <a
+			<p>Data Analyst skilled in SQL, Tableau, Power Query, Power Bi <a
 					href="https://www.linkedin.com/in/alliu-alameen-a46201256/">@Alliu</a> </a>.</p>
 			<ul class="actions">
 				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -40,6 +40,7 @@
 		<nav id="nav">
 			<ul class="links">
 				<li class="active"><a href="index.html">Projects</a></li>
+				<li><a href="elements2.html">Project 2</a></li>
 				<li><a href="generic.html">About</a></li>
 				<li><a href="elements.html">Resume</a></li>
 			</ul>
@@ -64,13 +65,22 @@
 					<h2><a href="https://github.com/Alameen3010/PortfolioProject/blob/main/HousingQuery.sql">Data
 							Cleaning in SQL<br />
 						</a></h2>
-					<p>In this project, we clean housing data in SQL .</p>
+					<p>In this section, I focused on cleaning and standardizing housing data using SQL queries. The goal
+						was to prepare the data for analysis by ensuring consistency and accuracy. Below are the key
+						tasks I performed:</p>
+					<li>Standardizing Date Format: I standardized the date format across the dataset to ensure
+						consistency, which is crucial for time-series analysis and reporting</li>
+					<li>Populating Property Address: Using available data, I populated missing property addresses to
+						fill gaps, improving the completeness of the dataset</li>
+					<li>Breaking Out Address into Individual Columns: To facilitate better data manipulation and
+						analysis,I split the address into separate columns (Address, City, State). This allows for more
+						granular filtering and querying of the data</li>
 				</header>
 				<a href="https://github.com/Alameen3010/PortfolioProject/blob/main/HousingQuery.sql"
 					class="image main"><img src="images/housing.jpg" alt="" /></a>
 				<ul class="actions special">
 					<li><a href="https://github.com/Alameen3010/PortfolioProject/blob/main/HousingQuery.sql"
-							class="button large">View Project</a></li>
+							class="button large">Click here to view the code on GitHub.</a></li>
 				</ul>
 			</article>
 
@@ -79,29 +89,51 @@
 				<article>
 					<header>
 
-						<h2><a href="https://github.com/Alameen3010/PortfolioProject/blob/main/DataExploration.sql">Data
-								Exploration in SQL<br />
+						<h2><a href="https://github.com/Alameen3010/PortfolioProject/blob/main/DataExploration.sql">COVID-19
+								Data Exploration <br />
 							</a></h2>
 					</header>
 					<a href="https://github.com/Alameen3010/PortfolioProject/blob/main/DataExploration.sql"
 						class="image fit"><img src="images/covid.jpg" alt="" /></a>
-					<p>Data Exploration of Covid 19 Dataset in SQL Server .</p>
+					<p>In this project, I explored and visualized a COVID-19 dataset using SQL for data exploration and
+						Tableau for visualization. The goal was to gain insights into the pandemic's impact across
+						different regions. Below are the key tasks and analyses I performed:
+						<br>
+						<br>
+
+						JOINS and Aggregate Functions:I used SQL JOINS to combine multiple tables and aggregate
+							functions to summarize data. This
+							allowed me to analyze key metrics such as:							
+						<li>Total Cases vs. Total Deaths
+						<li>Total Cases vs. Population</li>
+
+						<br>
+						<br>
+
+
+						Converting Data Types:
+							I converted data types to ensure accurate calculations and comparisons, which was essential
+							for
+							metrics like:</li>
+					
+						<li>Countries with the Highest Death Count</li>
+						<li>Continents with the Highest Death Count per Population</li>
 					<ul class="actions special">
 						<li><a href="https://github.com/Alameen3010/PortfolioProject/blob/main/DataExploration.sql"
-								class="button">View Project</a></li>
+								class="button">Click here to view the SQL queries on GitHub</a></li>
 					</ul>
 				</article>
 				<article>
 					<header>
 
 						<h2><a
-								href="https://public.tableau.com/app/profile/alameen.alliu/viz/CovidDashboard1_17231234162100/Dashboard1?publish=yes">Tableau
-								Projects<br />
+								href="https://public.tableau.com/app/profile/alameen.alliu/viz/CovidDashboard1_17231234162100/Dashboard1?publish=yes">COVID-19
+								Data Visualization<br />
 							</a></h2>
 					</header>
 					<a href="https://public.tableau.com/app/profile/alameen.alliu/viz/CovidDashboard1_17231234162100/Dashboard1?publish=yes"
 						class="image fit"><img src="images/tableau.jpg" alt="" /></a>
-					<p>This holds the contents of my dashboards.</p>
+					<p>I used Tableau to create dashboards that clearly present the data, making it easy to understand and explore.</p>
 					<ul class="actions special">
 						<li><a href="https://public.tableau.com/app/profile/alameen.alliu/viz/CovidDashboard1_17231234162100/Dashboard1?publish=yes"
 								class="button">View Dashboards</a></li>
@@ -112,7 +144,7 @@
 
 
 
-			
+
 				<section class="split contact">
 					<section class="alt">
 						<h3>Address</h3>
