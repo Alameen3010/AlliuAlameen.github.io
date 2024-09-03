@@ -14,6 +14,30 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+
+
+    <style>
+        .split.contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            /* Ensures the section takes full width */
+        }
+
+        .split.contact section {
+            margin-bottom: 1em;
+            /* Adds some spacing between sections */
+        }
+
+        .split.contact ul.icons.alt {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -61,8 +85,10 @@
                 <p>In this project, I transitioned from SQL to Power Query to clean and transform data. This section
                     focuses on tasks like removing rows, changing headers, adjusting data types, and more, providing a
                     detailed walkthrough of each process. The dataset I'm working with is a Food Prep dataset that
-                    contains a list of food items and their price from different stores, which I sourced from Alex the
-                    Analyst, a youtuber whose video helped my analytical skills.</p>
+                    contains a list of food items and their price from different stores, which I sourced from <a
+                        href="https://www.youtube.com/@AlexTheAnalyst" target="_blank">Alex the Analyst</a>,
+                    a YouTuber whose videos helped sharpen my analytical skills.
+                </p>
 
                 <div class="image main" style="text-align: center;">
                     <img src="images/s1.png" alt="" style="width: 100%; height: auto; display: inline-block; " />
@@ -72,7 +98,7 @@
 
                 <p>As we can see, the data looks very rough and disorganized, there are some blank columns and null
                     values. The goal is to get rid of some of these and clean it up to make it more usable for
-                    power bi visualizations</p>
+                    power bi visualizations.</p>
 
                 <header>
                     <h2>Key Tasks </h2>
@@ -81,8 +107,8 @@
                 <header>
                     <h4>Removing Rows</h4>
                     <p>The first thing i want to do is to remove the top rows of all nulls because we don't need them.
-                        They are completely useless in our dataset. I can do this with a quick button at the top of our
-                        power query ribbon </p>
+                        I can do this with a quick button at the top of our
+                        power query ribbon. </p>
 
                     <div class="image main" style="text-align: center;">
                         <img src="images/s2.png" alt="" style="width: 70%; height: auto; display: inline-block; " />
@@ -105,7 +131,7 @@
                     <h4>Changing Data Types</h4>
                     <p>Changing to the correct data type is a crucial data cleaning practice because it ensures that the
                         data is processed and analyzed correctly. We have to make sure we convert to the right data type
-                        to ensure data integrity, data consistency and accurate calculations and comparison </p>
+                        to ensure data integrity, data consistency and accurate calculations and comparison. </p>
 
                     <div class="image main" style="text-align: center;">
                         <img src="images/s5.png" alt="" style="width: 50%; height: auto; display: inline-block; " />
@@ -138,9 +164,11 @@
                 </header>
 
                 <header>
-                    <p>Now, our data looks good visually, everything looks well set up. A problem we have is our date
-                        columns dosen't really work too well with Power bi visualization so what we are going to need to
-                        do is to Pivot our date where they are actually going to be rows </p>
+                    <p> <em>Now, our data looks more organized, everything looks well set up. A problem we have is our
+                            date
+                            columns dosen't really work too well with Power bi visualization so what we are going to
+                            need to
+                            do is to pivot our date where they are actually going to be rows.</em> </p>
                     <div class="image main" style="text-align: center;">
                         <img src="images/s9.png" alt="" style="width: 50%; height: auto; display: inline-block; " />
                         <br>
@@ -171,9 +199,11 @@
 
                 </header>
 
-                After Unpivoting, i did some extra cleaning to finalize our data before saving the transformation. I
-                renamed Location to "Store", Attributes to "Dates", Values to "Product Cost" and changed the data type
-                of Date to that of a date.
+                <em> After Unpivoting, i did some extra cleaning to finalize our data before saving the transformation.
+                    I
+                    renamed Location to "Store", Attributes to "Dates", Values to "Product Cost" and changed the data
+                    type
+                    of Date to that of a date.</em>
 
                 <div class="image main" style="text-align: center;">
                     <img src="images/s12.png" alt="" style="width: 60%; height: auto; display: inline-block; " />
@@ -189,12 +219,12 @@
                 <section class="split contact">
                     <section class="alt">
                         <h3>Address</h3>
-                        <p>Ottawa, Ontario<br />
+                        <p>Ottawa, Ontario, Canada<br />
                         </p>
                     </section>
                     <section>
                         <h3>Phone</h3>
-                        <p><a href="#">(343) 254-6580</a></p>
+                        <p><a href="#">+1 (343) 254-6580</a></p>
                     </section>
                     <section>
                         <h3>Email</h3>
@@ -206,8 +236,8 @@
                             <li><a href="https://www.linkedin.com/in/alliu-alameen-a46201256/"
                                     class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a>
                             </li>
-                            <li><a href="https://github.com/dashboard" class="icon brands alt fa-github"><span
-                                        class="label">GitHub</span></a></li>
+                            <li><a href="https://github.com/Alameen3010/PortfolioProject"
+                                    class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
                         </ul>
                     </section>
                 </section>
